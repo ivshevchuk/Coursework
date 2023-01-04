@@ -1,14 +1,10 @@
 int main() {
-    int a = 2;
-    int d = 2;
+    int a = 5;
+    int d = 1;
     int n = 10;
-    if(d == 0){
+
+    for(int i=2; i<=n; i=i+1){
         a=a+d;
-    } else{
-        for(int i=2;
-        i<=n; i=i+1){
-                a=a+d;
-            }
     }
     return a;
 }
