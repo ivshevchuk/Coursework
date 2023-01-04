@@ -8,6 +8,7 @@ public enum ListOfTokens {
     KEYWORD_CHAR("char"),
     KEYWORD_VOID("void"),
     KEYWORD_IF("if"),
+    KEYWORD_WHILE("while"),
     KEYWORD_ELSE("else"),
     KEYWORD_RETURN("return"),
     KEYWORD_MAIN("main"),
