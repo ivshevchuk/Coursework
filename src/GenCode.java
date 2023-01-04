@@ -9,11 +9,11 @@ public class GenCode {
                 .append(".model flat, stdcall\n")
                 .append("option casemap :none\n\n")
 
-                .append("include C:\\masm32\\include\\kernel32.inc\n")
-                .append("include C:\\masm32\\include\\user32.inc\n\n")
+                .append("include D:\\masm32\\include\\kernel32.inc\n")
+                .append("include D:\\masm32\\include\\user32.inc\n\n")
 
-                .append("includelib C:\\masm32\\lib\\kernel32.lib\n")
-                .append("includelib C:\\masm32\\lib\\user32.lib\n\n")
+                .append("includelib D:\\masm32\\lib\\kernel32.lib\n")
+                .append("includelib D:\\masm32\\lib\\user32.lib\n\n")
 
                 .append("main PROTO\n\n")
 

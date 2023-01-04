@@ -1,9 +1,14 @@
-int nth_ap(int a, int d, int n) {
-   return (a + (n - 1) * d);
-}
 int main() {
-   int a = 2;
-   int d = 1;
-   int n = 5;
-   return nth_ap(a, d, n);
+    int a = 2;
+    int d = 2;
+    int n = 10;
+    if(d == 0){
+        a=a+d;
+    } else{
+        for(int i=2;
+        i<=n; i=i+1){
+                a=a+d;
+            }
+    }
+    return a;
 }
